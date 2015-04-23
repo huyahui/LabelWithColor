@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQV-8h-Cyf" customClass="DetailTextView">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQV-8h-Cyf" customClass="SKLabel">
                                 <rect key="frame" x="16" y="187" width="560" height="134"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="134" id="zaV-ZP-Yek"/>
@@ -37,7 +37,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="4be-iU-Bga"/>
                     <connections>
-                        <outlet property="testLabel" destination="MQV-8h-Cyf" id="Ax7-KB-jXW"/>
+                        <outlet property="testLabel" destination="MQV-8h-Cyf" id="qj9-Fq-jcb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

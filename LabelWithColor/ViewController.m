@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "DetailTextView.h"
+#import "SKLabel.h"
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet DetailTextView *testLabel;
+@property (weak, nonatomic) IBOutlet SKLabel *testLabel;
 
 @end
 

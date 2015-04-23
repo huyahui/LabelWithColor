@@ -14,7 +14,7 @@
 		D7DD90D71AE89F7300BBC026 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DD90D61AE89F7300BBC026 /* Images.xcassets */; };
 		D7DD90DA1AE89F7300BBC026 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7DD90D81AE89F7300BBC026 /* LaunchScreen.xib */; };
 		D7DD90E61AE89F7300BBC026 /* LabelWithColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DD90E51AE89F7300BBC026 /* LabelWithColorTests.m */; };
-		D7DD90F11AE8A20400BBC026 /* DetailTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DD90F01AE8A20400BBC026 /* DetailTextView.m */; };
+		D7DD90F41AE8B44900BBC026 /* SKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DD90F31AE8B44900BBC026 /* SKLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		D7DD90DF1AE89F7300BBC026 /* LabelWithColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelWithColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DD90E41AE89F7300BBC026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7DD90E51AE89F7300BBC026 /* LabelWithColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelWithColorTests.m; sourceTree = "<group>"; };
-		D7DD90EF1AE8A20400BBC026 /* DetailTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTextView.h; sourceTree = "<group>"; };
-		D7DD90F01AE8A20400BBC026 /* DetailTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTextView.m; sourceTree = "<group>"; };
+		D7DD90F21AE8B44900BBC026 /* SKLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLabel.h; sourceTree = "<group>"; };
+		D7DD90F31AE8B44900BBC026 /* SKLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +88,8 @@
 				D7DD90CE1AE89F7300BBC026 /* AppDelegate.m */,
 				D7DD90D01AE89F7300BBC026 /* ViewController.h */,
 				D7DD90D11AE89F7300BBC026 /* ViewController.m */,
-				D7DD90EF1AE8A20400BBC026 /* DetailTextView.h */,
-				D7DD90F01AE8A20400BBC026 /* DetailTextView.m */,
+				D7DD90F21AE8B44900BBC026 /* SKLabel.h */,
+				D7DD90F31AE8B44900BBC026 /* SKLabel.m */,
 				D7DD90D31AE89F7300BBC026 /* Main.storyboard */,
 				D7DD90D61AE89F7300BBC026 /* Images.xcassets */,
 				D7DD90D81AE89F7300BBC026 /* LaunchScreen.xib */,
@@ -226,7 +226,7 @@
 			files = (
 				D7DD90D21AE89F7300BBC026 /* ViewController.m in Sources */,
 				D7DD90CF1AE89F7300BBC026 /* AppDelegate.m in Sources */,
-				D7DD90F11AE8A20400BBC026 /* DetailTextView.m in Sources */,
+				D7DD90F41AE8B44900BBC026 /* SKLabel.m in Sources */,
 				D7DD90CC1AE89F7300BBC026 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

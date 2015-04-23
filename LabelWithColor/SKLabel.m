@@ -1,16 +1,14 @@
 //
-//  DetailTextView.m
-//  
+//  SKLabel.m
+//  LabelWithColor
 //
-//  Created by Mac Pro on 4/27/12.
-//  Copyright (c) 2012 Dawn. All rights reserved.
+//  Created by 侯志伟 on 15/4/23.
+//  Copyright (c) 2015年 shaveKevin. All rights reserved.
 //
 
-#import "DetailTextView.h"
+#import "SKLabel.h"
 #import <CoreText/CoreText.h>
-
-@implementation DetailTextView
-
+@implementation SKLabel
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -48,7 +46,7 @@
         CFRelease(ctFont1);
         
     }
-
+    
 }
 
 - (void)drawRect:(CGRect)rect
@@ -70,9 +68,9 @@
         CGPathRelease(pathRef);
         CFRelease(framesetter);
         UIGraphicsPushContext(context);
-
+        
     }
-
+    
 }
 
 
